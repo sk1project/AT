@@ -1,5 +1,5 @@
 - name: Hello World Sample
-  hosts: all
+  hosts: localhost
   tasks:
     - name: Hello Message
       wait_for: timeout=120
