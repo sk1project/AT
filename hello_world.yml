@@ -2,7 +2,8 @@
   hosts: localhost
   tasks:
     - name: Hello Message
-      wait_for: sleep=120
+      pause:
+         minutes: 5
       debug:
          msg: "Hello!"
 
