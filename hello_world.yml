@@ -2,7 +2,7 @@
   hosts: localhost
   tasks:
     - pause:
-         minutes: 2 
+         minutes: 3
     - name: Hello Message
       debug:
          msg: "Hello!"
