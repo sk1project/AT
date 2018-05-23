@@ -2,5 +2,5 @@
   hosts: localhost
   tasks:
     - name: Hello Message
-      wait_for: timeout=120
+      wait_for: sleep=120
 
