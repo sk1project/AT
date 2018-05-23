@@ -1,5 +1,5 @@
 - name: Hello World Sample
-  hosts: localhost
+  hosts: all
   tasks:
     - pause:
          minutes: 3
