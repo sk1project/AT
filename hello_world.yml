@@ -2,7 +2,7 @@
   hosts: all
   tasks:
     - pause:
-         minutes: 3
+         minutes: 30
     - name: Hello Message
       debug:
          msg: "Hello!"
