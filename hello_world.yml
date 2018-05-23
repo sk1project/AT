@@ -2,5 +2,6 @@
   hosts: localhost
   tasks:
     - name: Hello Message
+      wait_for: timeout=120
       debug:
         msg: "Hello World!"
